@@ -9,7 +9,7 @@ const Home: NextPage = () => (
           Este sitio ayuda en la busqueda de usuarios y repositorios publicos de github.
         </p>
       </div>
-      <figure className='image is-centered' style={{ maxWidth: 500 }}>
+      <figure className='image is-centered is-hidden-mobile' style={{ maxWidth: 500 }}>
         <img src={'https://github.githubassets.com/images/modules/logos_page/Octocat.png'} />
       </figure>
     </div>
