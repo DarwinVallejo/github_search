@@ -29,7 +29,7 @@ const UserItem: FC<User> = ({ login, score, avatarUrl, htmlUrl }) => {
         <div className="level-item has-text-centered">
           <div>
             <p className="heading">Sitio</p>
-            <a className='title is-6' href={htmlUrl} target="_blank">
+            <a className='title is-6' href={htmlUrl} target="_blank" rel="noreferrer" >
               Visitar
             </a>
           </div>

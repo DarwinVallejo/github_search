@@ -19,7 +19,7 @@ const RepositoryItem: FC<Repository> = (
         <div className="content">
           <p>
             <strong>{fullName}</strong>
-            <a href={owner.htmlUrl} target={'_blank'}>@{owner.login}</a>
+            <a href={owner.htmlUrl} target={'_blank'}  rel="noreferrer">@{owner.login}</a>
             <br />
             {description}
             <br />
@@ -52,11 +52,11 @@ const RepositoryItem: FC<Repository> = (
         </nav>
       </div>
       <div className='media-right is-hidden-mobile	'>
-        <a className='title is-5 has-text-primary' href={htmlUrl} target={'_blank'}>Visitar repo</a>
+        <a className='title is-5 has-text-primary' href={htmlUrl} target={'_blank'}  rel="noreferrer">Visitar repo</a>
       </div>
     </article>
     <div className='media is-hidden-tablet'>
-      <a className='title is-5 has-text-primary' href={htmlUrl} target={'_blank'}>Visitar repo</a>
+      <a className='title is-5 has-text-primary' href={htmlUrl} target={'_blank'}  rel="noreferrer">Visitar repo</a>
     </div>
   </div>
 );
